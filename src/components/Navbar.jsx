@@ -16,9 +16,11 @@ function NavBar() {
                 alt="IMDB Logo"
               />
             </Link>
+            <Link to = '/'>
             <div className="text-[#f5c518] font-bold text-xl">
               Movies Hub
             </div>
+            </Link>
           </div>
 
           {/* Right side - Navigation */}
