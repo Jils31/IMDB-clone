@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+.fa-heart {
+  transition: all 0.3s ease;
+}
+
+.fa-heart:hover {
+  transform: scale(1.1);
+}
+
+button:hover .fa-heart {
+  transform: scale(1.1);
+}
+
+/* Add these new styles */
+.far.fa-heart {
+  opacity: 0.9;
+}
+
+.fas.fa-heart {
+  filter: drop-shadow(0 0 1px rgba(0,0,0,0.3));
+}
