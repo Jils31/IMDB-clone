@@ -2,7 +2,7 @@ import "./App.css";
 import MovieRecommendation from "./components/MovieRecommendation";
 import Movies from "./components/Movies";
 import Navbar from "./components/Navbar";
-import Watchlist from "./components/Watchlist";
+import Watchlist from "./components/WatchList"; // Make sure this matches the actual filename case
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Banner from "./components/Banner";
 import { useEffect, useState } from "react";
